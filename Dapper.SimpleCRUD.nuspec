@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Dapper.SimpleCRUD</id>
-    <version>1.13.0</version>
-    <title>Dapper.SimpleCRUD</title>
+    <id>Dapper.SimpleCRUD-NW</id>
+    <version>1.13.0-mod</version>
+    <title>Dapper.SimpleCRUD-NW</title>
     <authors>Eric Coffman</authors>
     <owners>Eric Coffman</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -50,7 +50,7 @@
     <tags>orm dapper micro-orm CRUD</tags>
   <iconUrl>https://raw.githubusercontent.com/ericdc1/Dapper.SimpleCRUD/master/images/SimpleCRUD-200x200.png</iconUrl>
     <dependencies>
-      <dependency id="Dapper" version="[1.42,2.0)" />
+      <dependency id="Dapper" version="[1.50,2.0)" />
     </dependencies>
   </metadata>
   
@@ -58,9 +58,12 @@
     <file src="Dapper.SimpleCrud NET45\bin\Release\Dapper.SimpleCRUD.dll" target="lib\net45" />
     <file src="Dapper.SimpleCrud NET45\bin\Release\Dapper.SimpleCRUD.pdb" target="lib\net45" />
     <file src="Dapper.SimpleCrud NET45\bin\Release\Dapper.SimpleCRUD.xml" target="lib\net45" />
+	<file src="net45\DapperWrapper\bin\Release\DapperWrapper.dll" target="lib\net45\DapperWrapper.dll" />
 	
     <file src="Dapper.SimpleCrud\bin\Release\Dapper.SimpleCRUD.dll" target="lib\net40" />
     <file src="Dapper.SimpleCrud\bin\Release\Dapper.SimpleCRUD.pdb" target="lib\net40" />
-    <file src="Dapper.SimpleCrud\bin\Release\Dapper.SimpleCRUD.xml" target="lib\net40" />
+    <file src="Dapper.SimpleCrud\bin\Release\Dapper.SimpleCRUD.xml" target="lib\net40" />	
+	<file src="net40\DapperWrapper\bin\Release\DapperWrapper.dll" target="lib\net40\DapperWrapper.dll" />
+    
   </files>
 </package>
