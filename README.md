@@ -1,5 +1,8 @@
 Dapper.SimpleCRUD - simple CRUD helpers for Dapper
 ========================================
+Fork
+----
+This fork allows for multiple keys per table, useful for composite keys and many-to-many tables. It also integrates [Dapper.ExtraAnnotations](https://github.com/noahcolvin/dapper-wrapper) to make unit testing easier. If the original project accepts the [pull request](https://github.com/ericdc1/Dapper.SimpleCRUD/pull/99) to add the composite key support, this will no longer be needed.
 Features
 --------
 <img  align="right" src="https://raw.githubusercontent.com/ericdc1/Dapper.SimpleCRUD/master/images/SimpleCRUD-200x200.png" alt="SimpleCRUD">
